@@ -51,7 +51,7 @@ export default function Counters() {
           <span className="cnt-label">📂 Projetos Missionários em andamento a partir de obreiros parceiros</span>
         </div>
         <div className="cnt-item reveal in">
-          <span className="cnt-num-static">Centenas</span>
+          <span className="cnt-num" data-target="100">0</span>
           <span className="cnt-label">⛪ Igrejas conscientizadas sobre os desafios dos menos alcançados</span>
         </div>
       </div>

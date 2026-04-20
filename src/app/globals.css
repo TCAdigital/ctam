@@ -309,7 +309,7 @@ ul{list-style:none}
 .env-title{font-family:var(--font-h);font-size:clamp(1.8rem,3vw,2.8rem);color:#fff;line-height:1.2;margin-bottom:16px}
 .env-title span{color:var(--gold)}
 .env-desc{font-size:0.88rem;color:rgba(255,255,255,.65);line-height:1.8;margin-bottom:36px;max-width:380px}
-.env-items{display:flex;flex-direction:column;gap:28px;margin-bottom:40px}
+.env-items{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin-bottom:40px}
 .env-item{display:flex;gap:18px;align-items:flex-start}
 .env-num{
   width:52px;height:52px;flex-shrink:0;border-radius:50%;
@@ -428,6 +428,7 @@ ul{list-style:none}
   .cards-grid{grid-template-columns:1fr 1fr}
   .modulos-grid{grid-template-columns:1fr}
   .counters-grid{grid-template-columns:repeat(2,1fr)}
+  .env-items{grid-template-columns:1fr}
   .cnt-item:nth-child(2){border-right:none}
   .gal-grid{grid-template-columns:repeat(3,1fr);grid-auto-rows:240px}
   .gal-item:nth-child(1){grid-column:span 2}
