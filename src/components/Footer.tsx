@@ -18,7 +18,7 @@ export default function Footer() {
           <h4>Explorar</h4>
           <ul>
             <li><a href="#sobre">Sobre a Missão</a></li>
-            <li><a href="#curso">O Curso Online</a></li>
+            <li><a href="#curso">Treinamento Online</a></li>
             <li><a href="#atuacao">Onde Atuamos</a></li>
             <li><a href="#agenda">Agenda</a></li>
             <li><a href="#galeria">Galeria</a></li>
@@ -27,7 +27,7 @@ export default function Footer() {
         <div className="f-col">
           <h4>Se Envolver</h4>
           <ul>
-            <li><a href="#curso">Fazer o Curso</a></li>
+            <li><a href="#curso">Fazer o Treinamento</a></li>
             <li><a href="#envolver">Parceria Igreja</a></li>
             <li><a href="#envolver">Apoio Financeiro</a></li>
             <li><a href="#depoimentos">Depoimentos</a></li>

@@ -3,9 +3,9 @@
 import { useState, useEffect } from "react";
 
 const depos = [
-  {stars:5,cat:"Aluna do Curso Online",quote:'"O curso da Missão CTAM transformou minha visão sobre o chamado missionário. As matérias são profundas e moldaram meu coração para os povos não alcançados."',name:"Ana Carolina Silva",role:"Missionária, Goiânia/GO",init:"AC"},
+  {stars:5,cat:"Aluna do Treinamento Online",quote:'"O curso da Missão CTAM transformou minha visão sobre o chamado missionário. As matérias são profundas e moldaram meu coração para os povos não alcançados."',name:"Ana Carolina Silva",role:"Missionária, Goiânia/GO",init:"AC"},
   {stars:5,cat:"Participante do Acampamento",quote:'"Fui ao acampamento sem saber o que esperar e voltei com certeza do meu chamado. A equipe da CTAM cuida com amor de cada vocacionado."',name:"Marcos Oliveira",role:"Pastor, São Paulo/SP",init:"MO"},
-  {stars:5,cat:"Aluno do Curso Online",quote:'"A grade curricular é completa e equilibrada — teologia, espiritualidade e prática de campo. Recomendo para quem sente o chamado missionário."',name:"João Pedro Ferreira",role:"Obreiro, Recife/PE",init:"JP"},
+  {stars:5,cat:"Aluno do Treinamento Online",quote:'"A grade curricular é completa e equilibrada — teologia, espiritualidade e prática de campo. Recomendo para quem sente o chamado missionário."',name:"João Pedro Ferreira",role:"Obreiro, Recife/PE",init:"JP"},
   {stars:5,cat:"Parceiro Institucional",quote:'"Nossa igreja firmou parceria com a CTAM e vimos o chamado missionário despertar em vários membros. A mobilização deles é séria e com muito fruto."',name:"Rev. Samuel Costa",role:"Pastor, Manaus/AM",init:"SC"}
 ];
 

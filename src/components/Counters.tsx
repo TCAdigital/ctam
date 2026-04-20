@@ -39,20 +39,20 @@ export default function Counters() {
     <section id="counters" aria-label="Números da Missão" ref={cntRef}>
       <div className="counters-grid">
         <div className="cnt-item reveal in">
-          <span className="cnt-num" data-target="350">0</span>
-          <span className="cnt-label">🎓 Alunos Capacitados</span>
+          <span className="cnt-num" data-target="500">0</span>
+          <span className="cnt-label">🎓 Alunos capacitados na formação missionária e cursos rápidos</span>
         </div>
         <div className="cnt-item reveal in">
           <span className="cnt-num" data-target="18">0</span>
-          <span className="cnt-label">🌍 Nações Alcançadas</span>
+          <span className="cnt-label">🌍 Nações em todos os continentes alcançadas por obreiros e parceiros</span>
         </div>
         <div className="cnt-item reveal in">
-          <span className="cnt-num" data-target="2400">0</span>
-          <span className="cnt-label">📖 Bíblias Doadas</span>
+          <span className="cnt-num" data-target="10">0</span>
+          <span className="cnt-label">📂 Projetos Missionários em andamento a partir de obreiros parceiros</span>
         </div>
         <div className="cnt-item reveal in">
-          <span className="cnt-num" data-target="7000">0</span>
-          <span className="cnt-label">🏳️ Povos Não Alcançados</span>
+          <span className="cnt-num-static">Centenas</span>
+          <span className="cnt-label">⛪ Igrejas conscientizadas sobre os desafios dos menos alcançados</span>
         </div>
       </div>
     </section>

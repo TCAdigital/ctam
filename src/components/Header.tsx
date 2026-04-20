@@ -22,7 +22,7 @@ export default function Header() {
         </a>
         <nav className="nav-menu" aria-label="Menu principal">
           <a href="#sobre">Sobre</a>
-          <a href="#curso">O Curso</a>
+          <a href="#curso">Treinamento</a>
           <a href="#atuacao">Campo</a>
           <a href="#agenda">Agenda</a>
           <a href="#galeria">Galeria</a>
@@ -46,7 +46,7 @@ export default function Header() {
       </div>
       <nav className={`nav-mobile ${mobOpen ? "open" : ""}`} id="navMob" aria-label="Menu mobile">
         <a href="#sobre" onClick={() => setMobOpen(false)}>Sobre</a>
-        <a href="#curso" onClick={() => setMobOpen(false)}>O Curso</a>
+        <a href="#curso" onClick={() => setMobOpen(false)}>Treinamento</a>
         <a href="#atuacao" onClick={() => setMobOpen(false)}>Campo</a>
         <a href="#agenda" onClick={() => setMobOpen(false)}>Agenda</a>
         <a href="#galeria" onClick={() => setMobOpen(false)}>Galeria</a>

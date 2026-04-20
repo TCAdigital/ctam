@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="hero-content">
           <h1 className="hero-title">Levando as<br/>Boas Novas<br/>Onde Poucos<br/>Chegam.</h1>
           <div className="hero-btns">
-            <a href="#curso" className="btn-red">Conheça o Curso <i className="fas fa-arrow-right"></i></a>
+            <a href="#curso" className="btn-red">Conheça o Treinamento <i className="fas fa-arrow-right"></i></a>
             <a href="#sobre" className="btn-gold">Saiba Mais <i className="fas fa-arrow-right"></i></a>
           </div>
         </div>

@@ -37,7 +37,7 @@ export default function Course() {
             <h3>Pronto para responder<br/>ao chamado?</h3>
             <ul className="cta-benefits">
               <li><i className="fas fa-check-circle"></i> 3 módulos e 12 matérias online</li>
-              <li><i className="fas fa-check-circle"></i> Apoio pastoral e cuidado integral</li>
+              <li><i className="fas fa-check-circle"></i> Assistência e aconselhamento para alunos</li>
               <li><i className="fas fa-check-circle"></i> Interdenominacional — sua doutrina, respeitada</li>
               <li><i className="fas fa-check-circle"></i> Certificado ao final do curso</li>
             </ul>
@@ -45,7 +45,7 @@ export default function Course() {
           <div className="cta-action">
             <div className="cta-seals">
               <div className="seal"><i className="fas fa-globe"></i><span>Desde<br/>2013</span></div>
-              <div className="seal"><i className="fas fa-users"></i><span>+350<br/>Alunos</span></div>
+              <div className="seal"><i className="fas fa-users"></i><span>+500<br/>Alunos</span></div>
               <div className="seal"><i className="fas fa-star"></i><span>100%<br/>Online</span></div>
             </div>
             <a href="https://wa.me/5517999999999" target="_blank" rel="noopener noreferrer" className="btn-cta-big">

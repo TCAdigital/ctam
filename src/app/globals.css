@@ -162,7 +162,7 @@ ul{list-style:none}
 .counters-grid{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr)}
 .cnt-item{text-align:center;padding:10px 20px;border-right:1px solid rgba(255,255,255,.12)}
 .cnt-item:last-child{border-right:none}
-.cnt-num{font-family:var(--font-h);font-size:clamp(3rem,5vw,5rem);color:var(--gold);display:block;line-height:1}
+.cnt-num, .cnt-num-static{font-family:var(--font-h);font-size:clamp(3rem,5vw,5rem);color:var(--gold);display:block;line-height:1}
 .cnt-label{color:rgba(255,255,255,.7);font-size:0.85rem;margin-top:10px;display:block}
 
 /* ===== ATUAÃƒÆ’Ã¢â‚¬Â¡ÃƒÆ’Ã†â€™O (4 Cards com imagem + fade) ===== */
