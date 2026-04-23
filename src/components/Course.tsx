@@ -40,12 +40,13 @@ export default function Course() {
               <li><i className="fas fa-check-circle"></i> Assistência e aconselhamento para alunos</li>
               <li><i className="fas fa-check-circle"></i> Interdenominacional — sua doutrina, respeitada</li>
               <li><i className="fas fa-check-circle"></i> Certificado ao final do curso</li>
+              <li><i className="fas fa-check-circle"></i> Após curso On-line o aluno pode presencialmente receber mentoria e auxílio durante uma temporada na base de treinamento</li>
             </ul>
           </div>
           <div className="cta-action">
             <div className="cta-seals">
-              <div className="seal"><i className="fas fa-globe"></i><span>Desde<br/>2013</span></div>
-              <div className="seal"><i className="fas fa-users"></i><span>+500<br/>Alunos</span></div>
+              <div className="seal"><i className="fas fa-globe"></i><span>Desde 2015 servindo na formação de obreiros</span></div>
+              <div className="seal"><i className="fas fa-users"></i><span>+500 alunos nos diversos cursos e capacitações</span></div>
               <div className="seal"><i className="fas fa-star"></i><span>100%<br/>Online</span></div>
             </div>
             <a href="https://wa.me/5517999999999" target="_blank" rel="noopener noreferrer" className="btn-cta-big">

@@ -20,7 +20,8 @@ export default function About() {
           </div>
           <div className="sobre-text reveal-r in">
             <span className="tag-red">Sobre a Missão</span>
-            <h2 className="sobre-title" id="sobre-h">Juntos Podemos Alcançar<br/>o <span>Mundo Inteiro</span></h2>
+            <h2 className="sobre-title" id="sobre-h">Juntos podemos levar o evangelho aos não alcançados.</h2>
+            <p className="sobre-subtitle" style={{ fontSize: "1.1rem", color: "var(--gold)", fontWeight: 600, marginTop: "-20px", marginBottom: "24px", fontFamily: "var(--font-h)" }}>Até que Todos Saibam</p>
             <p className="sobre-desc">A Missão CTAM é uma organização missionária interdenominacional fundada em 2013 pelos pastores Carlos Medeiros e Mara Raquel Medeiros, com base em Nova Granada/SP.</p>
             <hr className="sobre-divider" />
             <div className="sobre-bottom">
