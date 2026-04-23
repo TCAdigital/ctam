@@ -212,7 +212,7 @@ ul{list-style:none}
 }
 
 /* ===== CURSO ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â design da v1 (cards modernos) ===== */
-#curso{background:#fff;padding:90px 40px}
+#curso{background:#fff;padding:90px 40px;scroll-margin-top:90px}
 .curso-header{text-align:center;max-width:700px;margin:0 auto 56px}
 .curso-header p{color:var(--gray);font-size:0.95rem;line-height:1.8;margin-top:14px}
 .modulos-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;max-width:1100px;margin:0 auto 56px}
@@ -233,7 +233,7 @@ ul{list-style:none}
 .curso-cta{
   background:linear-gradient(135deg,var(--blue-dark) 0%,var(--blue) 100%);
   border-radius:16px;padding:60px 48px;
-  display:flex;align-items:center;justify-content:space-between;gap:40px;
+  display:flex;align-items:center;justify-content:space-between;gap:40px;flex-wrap:wrap;
   max-width:1100px;margin:0 auto;position:relative;overflow:hidden;
 }
 
@@ -243,13 +243,14 @@ ul{list-style:none}
 .cta-action .cta-label{font-family:var(--font-h);font-size:1rem;color:rgba(255,255,255,.6);display:block;margin-bottom:16px}
 
 
-.cta-benefits{list-style:none;margin:20px 0 0;display:flex;flex-direction:column;gap:10px}
-.cta-benefits li{display:flex;align-items:center;gap:10px;font-size:.88rem;color:rgba(255,255,255,.82)}
-.cta-benefits li i{color:var(--gold);font-size:.9rem;flex-shrink:0}
-.cta-seals{display:flex;gap:18px;justify-content:center;margin-bottom:32px}
+.cta-benefits{list-style:none;margin:24px 0 0;display:flex;flex-direction:column;gap:12px;text-align:left}
+.cta-benefits li{display:flex;align-items:flex-start;gap:12px;font-size:.88rem;color:rgba(255,255,255,.82);margin-bottom:8px}
+.cta-benefits li i{color:var(--gold);font-size:.9rem;flex-shrink:0;margin-top:4px}
+.cta-seals{display:flex;gap:14px;justify-content:center;margin-bottom:32px;flex-wrap:wrap}
 .seal{
   background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.15);
-  border-radius:12px;padding:22px 26px;text-align:center;min-width:100px;
+  border-radius:12px;padding:18px 15px;text-align:center;min-width:130px;max-width:200px;
+  flex:1;display:flex;flex-direction:column;justify-content:center;
 }
 .seal i{font-size:1.8rem;color:var(--gold);display:block;margin-bottom:12px}
 .seal span{font-size:.9rem;color:rgba(255,255,255,.9);line-height:1.4;display:block;font-weight:600}
@@ -468,8 +469,9 @@ ul{list-style:none}
   .curso-cta{padding:40px 24px}
   .cta-text h3{font-size:1.6rem}
   .cta-benefits li{font-size:0.8rem}
-  .cta-seals{flex-wrap:wrap;gap:14px}
-  .seal{padding:14px;min-width:40%;flex:1}
+  .cta-seals{flex-direction:column;gap:12px;align-items:stretch}
+  .seal{padding:18px 20px;min-width:100%;flex:none;max-width:none}
+  .cta-benefits{align-items:flex-start;max-width:400px;margin:24px auto 0}
   .btn-cta-big{font-size:0.95rem;padding:18px 24px}
 }
 @media(max-width:480px){
