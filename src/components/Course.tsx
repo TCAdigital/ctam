@@ -49,7 +49,7 @@ export default function Course() {
               <div className="seal"><i className="fas fa-users"></i><span>+500 alunos nos diversos cursos e capacitações</span></div>
               <div className="seal"><i className="fas fa-star"></i><span>100%<br/>Online</span></div>
             </div>
-            <a href="https://wa.me/5517999999999" target="_blank" rel="noopener noreferrer" className="btn-cta-big">
+            <a href="https://wa.me/5517992364474" target="_blank" rel="noopener noreferrer" className="btn-cta-big">
               <i className="fab fa-whatsapp"></i> Quero me Inscrever
             </a>
             <p className="cta-sub">Fale conosco pelo WhatsApp e tire todas as dúvidas</p>

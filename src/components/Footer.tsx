@@ -11,7 +11,7 @@ export default function Footer() {
             <a href="#" className="f-soc" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
             <a href="#" className="f-soc" aria-label="X/Twitter"><i className="fab fa-x-twitter"></i></a>
             <a href="#" className="f-soc" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
-            <a href="https://wa.me/5517999999999" className="f-soc" aria-label="WhatsApp"><i className="fab fa-whatsapp"></i></a>
+            <a href="https://wa.me/5517992364474" className="f-soc" aria-label="WhatsApp"><i className="fab fa-whatsapp"></i></a>
           </div>
         </div>
         <div className="f-col">
@@ -39,7 +39,7 @@ export default function Footer() {
           <div className="f-contact-card">
             <h4>Nova Granada/SP<br/>A 30 min de S.J. Rio Preto</h4>
             <a href="https://www.google.com/maps?cid=5287923131678421322" target="_blank" rel="noopener noreferrer" className="f-contact-row hover:text-[var(--gold)] transition-colors"><i className="fas fa-map-marker-alt"></i> Ver no Mapa</a>
-            <div className="f-contact-row"><i className="fab fa-whatsapp"></i> (17) 9 9999-9999</div>
+             <div className="f-contact-row"><i className="fab fa-whatsapp"></i> (17) 99236-4474</div>
             <div className="f-contact-row"><i className="fas fa-envelope"></i> contato@missaoctam.org</div>
           </div>
         </div>

@@ -46,7 +46,7 @@ export default function Involve() {
             </div>
 
           </div>
-          <a href="https://wa.me/5517999999999" target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ alignSelf: "flex-start" }}>Descobrir Mais <i className="fas fa-arrow-right"></i></a>
+          <a href="https://wa.me/5517992364474" target="_blank" rel="noopener noreferrer" className="btn-gold" style={{ alignSelf: "flex-start" }}>Descobrir Mais <i className="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </section>

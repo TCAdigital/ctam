@@ -34,7 +34,7 @@ export default function FloatingWidgets() {
 
   return (
     <>
-      <a href="https://wa.me/5517999999999" target="_blank" rel="noopener noreferrer" className="wa-fab" aria-label="WhatsApp">
+      <a href="https://wa.me/5517992364474" target="_blank" rel="noopener noreferrer" className="wa-fab" aria-label="WhatsApp">
         <i className="fab fa-whatsapp"></i>
       </a>
       <button
