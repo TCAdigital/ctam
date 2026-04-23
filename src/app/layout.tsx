@@ -16,7 +16,31 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Missão CTAM — Levando as Boas Novas Onde Poucos Chegam",
-  description: "Missão CTAM — Organização missionária interdenominacional fundada em 2013.",
+  description: "Organização missionária interdenominacional focada na formação, mobilização e envio de obreiros para os Povos Não Alcançados. Conheça nosso treinamento online.",
+  keywords: ["missão", "ctam", "missionário", "evangelho", "povos não alcançados", "treinamento missionário", "capacitação online"],
+  authors: [{ name: "Missão CTAM" }],
+  openGraph: {
+    title: "Missão CTAM — Levando as Boas Novas Onde Poucos Chegam",
+    description: "Formação e mobilização para o alcance dos Povos Não Alcançados. Faça parte desta missão.",
+    url: "https://www.missaoctam.org",
+    siteName: "Missão CTAM",
+    images: [
+      {
+        url: "/og-sharing.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Missão CTAM - Alcançando o Inalcançável",
+      },
+    ],
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Missão CTAM — Levando as Boas Novas Onde Poucos Chegam",
+    description: "Formação e mobilização para o alcance dos Povos Não Alcançados.",
+    images: ["/og-sharing.jpg"],
+  },
 };
 
 export default function RootLayout({
